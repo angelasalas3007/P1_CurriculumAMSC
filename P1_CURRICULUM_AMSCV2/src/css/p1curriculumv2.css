@@ -1,0 +1,45 @@
+
+* {
+  margin: 0;
+  padding:0;
+}
+
+ body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .personal-info {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .experiencia {
+            margin-bottom: 20px;
+        }
+        .experiencia h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .contacto-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .contacto-info div {
+            text-align: center;
+        }
